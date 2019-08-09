@@ -1,0 +1,14 @@
+
+
+Mac/Linux: /etc/hosts
+
+Linux: Open Terminal > Run command "sudo crontab -e" > 
+add line at bottom of file "@reboot python3 "PATH OF PYTHON FILE" > Save and exit file
+
+
+Windows:  C:\Windows\System32\drivers\etc
+
+Windows:  If you want to set program to run automatically, got to 
+Task Scheduler > Create Task > Create Name/Description > Check "Run with highest privileges > 
+Configure for "CHOOSE OS OF SYSTEM" > Set Trigger > Add Action (add location of script) > 
+Change conditions/settings if needed
